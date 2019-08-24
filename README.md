@@ -54,3 +54,32 @@ In this project we can able to know how we can able to train a model for face re
    ## GETTING IMAGES FOR TRAINING
    
    In this step we are getting the images for Training our model
+   
+   Now create a Directories by Entering the Following commands
+   
+               cd
+               
+               mkdir Facedetection
+               
+               cd Facedetection
+               
+               mkdir capturing
+               
+               mkdir training
+               
+   After this run the following code in Python Idle  to Train a Image for facial Recogntion(capturing.py).
+   https://github.com/Karthikeyan-alp/FaceRecognition/blob/master/capturing.py
+   
+   Save the file as capturing.py and open the Terminal and write the following command.
+   
+             cd 
+             
+             source ~/.profile
+             
+             workon cv
+             
+             python3 capturing.py
+             
+  This command will save the photo at capturing folder in Grayscale format.If you want to train more person run the same code by giving different user Id.
+   
+   
