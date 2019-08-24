@@ -19,7 +19,7 @@ In this project we can able to know how we can able to train a model for face re
   
   Home >> pi >> opencv-3.3.0 >> data >> haarcascades >> Xml files
   
-  ** IF NOT AVAILALE IN ABOVE PATH **
+  ### IF NOT AVAILALE IN ABOVE PATH 
    
    Download it by giving the command in Terminal like
     
@@ -34,3 +34,19 @@ In this project we can able to know how we can able to train a model for face re
             cd haarcascades
             
             wget (** Right click on the haarcascdes.xml file and copy the path from browser and paste it and hit Enter **)
+            
+            
+  ## CHECKING HAARCASCADES
+  
+   Now we are going to check the Haarcascades with some code.Now open the python idle and type the following code from https://github.com/Karthikeyan-alp/FaceRecognition/blob/master/face.py
+   After finish the coding save it and open the Terminal window.type the following code to run the file.
+   
+             cd 
+             
+             source ~/.profile
+             
+             workon cv
+             
+             python3 face.py
+             
+   It will open the camera and put the box around our face.press ESC to stop the live video.
