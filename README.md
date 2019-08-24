@@ -50,3 +50,7 @@ In this project we can able to know how we can able to train a model for face re
              python3 face.py
              
    It will open the camera and put the box around our face.press ESC to stop the live video.
+   
+   ## GETTING IMAGES FOR TRAINING
+   
+   In this step we are getting the images for Training our model
