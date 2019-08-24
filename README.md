@@ -82,7 +82,7 @@ In this project we can able to know how we can able to train a model for face re
              
   This command will save the photo at capturing folder in Grayscale format.If you want to train more person run the same code by giving different user Id.
   
- ## TRAINING AN IMAGES FOR PROCESSING
+## TRAINING AN IMAGES FOR PROCESSING
  
  In this step we are going to create a yml file for Facial Detection.This file is produced by using the Negative images stored in the capturing folder.
  
@@ -99,5 +99,32 @@ You can get the file(training.py) https://github.com/Karthikeyan-alp/FaceRecogni
              python3 training.py
              
   After this execution you can find the yml file in training directory.
+  
+## CHECKING THE TRAINED IMAGES
    
+once the above process is completed.Now we are going to check the program will identify the face of our trained models.
+
+You can get the file(testing.py) https://github.com/Karthikeyan-alp/FaceRecognition/blob/master/training.py
+
+ Save the file as testing.py and open the Terminal and write the following command.
+   
+             cd 
+             
+             source ~/.profile
+             
+             workon cv
+             
+             python3 testing.py
+
+
+Thats all now you can train whatever models you needed for Image processing.
+
+## THANKS
+
+A special thanks to write this code based on this :https://www.instructables.com/id/Real-time-Face-Recognition-an-End-to-end-Project/
+
+## CONCLUSION
+
+That's all we has created a Face Recogonition for certain models.
+ 
    
