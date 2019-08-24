@@ -2,7 +2,7 @@
 
 ## GETTING STARTED
 
-In this project we can able to know how we can able to train a model for face recognition.If you are not installed an opencv try to install it with this link :https://github.com/skarthikeyan2097/Image-processing-opencv/blob/master/README.md
+In this project we can able to know how we can able to train a model for face recognition.If you are not installed an opencv try to install it with this link :https://github.com/Karthikeyan-alp/OpenCV-PI-Installation
 
 ## PREREQUISITES
    - Raspberry pi 3/3B+/4
@@ -13,3 +13,24 @@ In this project we can able to know how we can able to train a model for face re
 
    You need a Haarcascades for developing the face detection.so Install the cascades file from this link
    https://github.com/opencv/opencv/tree/master/data/haarcascades 
+   
+   
+  Check the folder ,If haarcascades is available Neglect the upcoming steps
+  
+  Home >> pi >> opencv-3.3.0 >> data >> haarcascades >> Xml files
+  
+  ** IF NOT AVAILALE IN ABOVE PATH **
+   
+   Download it by giving the command in Terminal like
+    
+            cd
+            
+            cd opencv-3.3.0
+            
+            cd data
+            
+            mkdir haarcascades
+            
+            cd haarcascades
+            
+            wget (** Right click on the haarcascdes.xml file and copy the path from browser and paste it and hit Enter **)
