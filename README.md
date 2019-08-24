@@ -81,5 +81,23 @@ In this project we can able to know how we can able to train a model for face re
              python3 capturing.py
              
   This command will save the photo at capturing folder in Grayscale format.If you want to train more person run the same code by giving different user Id.
+  
+ ## TRAINING AN IMAGES FOR PROCESSING
+ 
+ In this step we are going to create a yml file for Facial Detection.This file is produced by using the Negative images stored in the capturing folder.
+ 
+You can get the file(training.py) https://github.com/Karthikeyan-alp/FaceRecognition/blob/master/training.py
+
+ Save the file as training.py and open the Terminal and write the following command.
+   
+             cd 
+             
+             source ~/.profile
+             
+             workon cv
+             
+             python3 training.py
+             
+  After this execution you can find the yml file in training directory.
    
    
